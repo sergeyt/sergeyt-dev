@@ -1,0 +1,7 @@
+.links {
+  display: flex;
+}
+
+.links a:not(:first-child) {
+  margin-left: 4px;
+}
