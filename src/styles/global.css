@@ -1,5 +1,9 @@
+* {
+  box-sizing: border-box;
+}
+
 body {
-  margin: 0; /* prevents scrollbars */
+  margin: 0;
 }
 
 ::selection {
