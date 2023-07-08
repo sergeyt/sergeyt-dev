@@ -1,0 +1,18 @@
+body {
+  margin: 0; /* prevents scrollbars */
+}
+
+::selection {
+  background-color: #47a3f3;
+  color: #fefefe;
+}
+
+a {
+  color: #d4d4d4;
+  transition-property: all;
+  transition-timing-function: cubic-bezier(.4,0,.2,1);
+  transition-duration: .15s;
+}
+a:hover {
+  color: white;
+}
