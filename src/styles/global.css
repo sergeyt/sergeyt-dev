@@ -8,6 +8,8 @@ body {
 }
 
 a {
+  display: inline-flex;
+  align-items: center;
   color: #d4d4d4;
   transition-property: all;
   transition-timing-function: cubic-bezier(.4,0,.2,1);
@@ -15,4 +17,10 @@ a {
 }
 a:hover {
   color: white;
+}
+a.no_decoration {
+  text-decoration: none;
+}
+a.no_decoration:hover {
+  text-decoration: none;
 }

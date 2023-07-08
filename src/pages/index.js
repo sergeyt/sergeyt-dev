@@ -1,5 +1,6 @@
-import Layout from "../components/layout";
 import YouTube from "react-youtube";
+import Layout from "../components/layout";
+import { FaExternalLinkAlt as LinkIcon } from "../components/icons";
 
 export const metadata = {
   title: "SergeyT Blog",
@@ -33,10 +34,23 @@ export default function Home() {
         or even how I&apos; playing table tennis 😀.
       </p>
       <p>
-        <a href="https://www.twitter.com/todysh" target="_blank">
+        <a
+          className="no_decoration"
+          href="https://www.twitter.com/todysh"
+          target="_blank"
+        >
+          <span style={{ marginRight: "2px" }}>
+            <LinkIcon size={11} />
+          </span>
           follow me on twitter
         </a>{" "}
-        or <a href="mailto:stodyshev@gmail.com">email me</a>
+        or{" "}
+        <a className="no_decoration" href="mailto:stodyshev@gmail.com">
+          <span style={{ marginRight: "2px" }}>
+            <LinkIcon size={11} />
+          </span>
+          email me
+        </a>
       </p>
     </Layout>
   );
