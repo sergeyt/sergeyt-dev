@@ -29,7 +29,8 @@ export default function Home() {
         <a href="https://tsvbits.com" target="_blank">
           https://tsvbits.com
         </a>
-        .
+        . You&apos;ll find writing about tech I&apos; interested in right now,
+        or even how I&apos; playing table tennis 😀.
       </p>
       <p>
         <a href="https://www.twitter.com/todysh" target="_blank">
