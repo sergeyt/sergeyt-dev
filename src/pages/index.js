@@ -9,11 +9,11 @@ export const metadata = {
 export default function Home() {
   return (
     <Layout>
-      <h2>hey, I'm sergeyt 👋</h2>
+      <h2>hey, I&apos;m sergeyt 👋</h2>
       <p>
-        I'm a father of two kids, explorer, simplifier and optimizer. I play
-        competitive table tennis at the amateur level. Here is a video playing
-        me at some tournament.
+        I&apos;m a father of two kids, explorer, simplifier and optimizer. I
+        play competitive table tennis at the amateur level. Here is a video
+        playing me at some tournament.
       </p>
       <YouTube videoId="s7hXN47m8Ck" opts={{ height: "390", width: "640" }} />
       <p>
