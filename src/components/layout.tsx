@@ -28,8 +28,8 @@ export default function RootLayout({ children }) {
           <Link href="https://tsvbits.com" target="_blank">
             blog
           </Link>
-          <Link href="https://github.com/sergeyt" target="_blank">
-            work
+          <Link href="https://tsvbits.com/resume" target="_blank">
+            resume
           </Link>
         </div>
         <Links />
