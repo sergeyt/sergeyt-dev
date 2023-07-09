@@ -14,7 +14,7 @@ export default function Home() {
       <p>
         I&apos;m a father of two kids, explorer, simplifier and optimizer. I
         play competitive table tennis at the amateur level. Here is a video
-        playing me at some tournament.
+        playing me at some tournament. I am in black hoodie 😀.
       </p>
       <YouTube videoId="s7hXN47m8Ck" opts={{ height: "390", width: "640" }} />
       <p>
