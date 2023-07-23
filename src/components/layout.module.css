@@ -1,14 +1,10 @@
 .page {
   width: 100vw;
   height: 100vh;
-  padding: 40px;
-  display: grid;
-  grid-template-columns: 1fr;
-  grid-template-rows: auto 1fr auto;
-  grid-template-areas:
-    "header"
-    "main"
-    "footer";
+  padding: 2rem 1rem;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
   background-color: #111010;
   color: white;
   font-family: -apple-system-ui-serif, ui-serif, "Spectral", "Georgia", serif;
@@ -18,35 +14,21 @@
   overflow: hidden;
 }
 
-.header,
-.footer {
-  width: 672px;
-  margin-left: auto;
-  margin-right: auto;
-  display: flex;
-  align-items: center;
-}
-
 .header {
-  grid-area: header;
-}
-
-.footer {
-  grid-area: footer;
-  justify-content: center;
+  flex-shrink: 0;
+  flex-grow: 0;
+  max-width: 672px;
+  display: flex;
+  align-items: flex-start;
 }
 
 .main {
-  grid-area: main;
   overflow: auto;
-  width: 672px;
-  padding: 16px;
-  margin-left: auto;
-  margin-right: auto;
+  max-width: 672px;
 }
 
 .nav a {
-  margin-right: 16px;
+  margin-right: 1rem;
   color: #737373;
   text-decoration: none;
 }

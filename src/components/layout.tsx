@@ -29,15 +29,12 @@ export default function RootLayout({ children }) {
             blog
           </Link>
           <Link href="https://tsvbits.com/resume" target="_blank">
-            resume
+            cv
           </Link>
         </div>
         <Links />
       </header>
       <main className={styles.main}>{children}</main>
-      <footer className={styles.footer}>
-        © 2023, Built with ❤️ by Sergey Todyshev
-      </footer>
     </div>
   );
 }

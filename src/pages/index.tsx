@@ -2,9 +2,34 @@ import YouTube from "react-youtube";
 import Layout from "../components/layout";
 import { FaExternalLinkAlt as LinkIcon } from "../components/icons";
 
+const description = "Software Engineer. Table tennis player.";
+
 export const metadata = {
-  title: "SergeyT Blog",
-  description: "Low-code bits written by SergeyT",
+  title: {
+    default: "Sergey Todyshev",
+    template: "%s | Sergey Todyshev",
+  },
+  description,
+  metadataBase: new URL("https://sergeyt-dev"),
+  openGraph: {
+    title: "Sergey Todyshev",
+    description,
+    url: "https://sergeyt.dev",
+    siteName: "Sergey Todyshev",
+    locale: "en-US",
+    type: "website",
+  },
+  robots: {
+    index: true,
+    follow: true,
+    googleBot: {
+      index: true,
+      follow: true,
+      "max-video-preview": -1,
+      "max-image-preview": "large",
+      "max-snippet": -1,
+    },
+  },
 };
 
 export default function Home() {
@@ -16,7 +41,7 @@ export default function Home() {
         play competitive table tennis at the amateur level. Here is a video
         playing me at some tournament. I am in black hoodie 😀.
       </p>
-      <YouTube videoId="s7hXN47m8Ck" opts={{ height: "390", width: "640" }} />
+      <YouTube videoId="s7hXN47m8Ck" opts={{ width: "100%" }} />
       <p>
         I currently work as Software Engineer at{" "}
         <a href="https://www.regie.ai" target="_blank">
