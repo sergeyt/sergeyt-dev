@@ -25,10 +25,10 @@ export default function RootLayout({ children }) {
           >
             home
           </Link>
-          <Link href="https://tsvbits.com" target="_blank">
+          <Link href="./blog" target="_blank">
             blog
           </Link>
-          <Link href="https://tsvbits.com/resume" target="_blank">
+          <Link href="./resume" target="_blank">
             cv
           </Link>
         </div>

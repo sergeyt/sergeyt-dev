@@ -23,7 +23,8 @@
       }
     ],
     "strictNullChecks": true,
-    "target": "ES2017"
+    "target": "ES2017",
+    "baseUrl": "./src"
   },
   "include": [
     "next-env.d.ts",

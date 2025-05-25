@@ -9,10 +9,15 @@
     "lint": "next lint"
   },
   "dependencies": {
+    "@mdx-js/react": "^3.1.0",
+    "@mdx-js/loader": "^3.1.0",
+    "@next/mdx": "^15.4.0-canary.51",
     "@react-icons/all-files": "4.1.0",
+    "bluebird": "^3.7.2",
     "clsx": "^2.1.1",
     "eslint": "9.27.0",
     "eslint-config-next": "15.3.2",
+    "gray-matter": "^4.0.3",
     "next": "15.3.2",
     "react": "18.3.1",
     "react-dom": "18.3.1",
@@ -20,6 +25,7 @@
     "react-youtube": "^10.1.0"
   },
   "devDependencies": {
+    "@types/bluebird": "^3.5.42",
     "@types/node": "22.15.21",
     "@types/react": "19.1.5",
     "prettier": "^3.5.3",
