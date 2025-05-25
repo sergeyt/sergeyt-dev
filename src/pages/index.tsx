@@ -1,6 +1,6 @@
 import YouTube from "react-youtube";
 import Layout from "../components/layout";
-import { FaExternalLinkAlt as LinkIcon } from "../components/icons";
+import { LinkIcon } from "../components/icons";
 
 const description = "Software Engineer. Table tennis player.";
 
@@ -47,27 +47,20 @@ export default function Home() {
         <a href="https://www.regie.ai" target="_blank">
           Regie.ai
         </a>
-        , where I build an AI Assistance Software to help Sales people to be
-        more productive.
+        , where we build a first AI-driven Sales Enablement Platform to help Sales people to be
+        more productive and having less tech stack.
       </p>
       <p>
-        I spontaneously write articles on{" "}
-        <a href="https://tsvbits.com" target="_blank">
-          https://tsvbits.com
-        </a>
-        . You&apos;ll find writing about tech I&apos;m interested in right now,
+        I spontaneously blog here. You&apos;ll find writing about tech I&apos;m interested in right now,
         or even how I&apos; playing table tennis 😀.
       </p>
       <p>
         <a
           className="no_decoration"
-          href="https://www.twitter.com/todysh"
+          href="https://www.x.com/todysh"
           target="_blank"
         >
-          <span style={{ marginRight: "2px" }}>
-            <LinkIcon size={11} />
-          </span>
-          follow me on twitter
+          follow me on X
         </a>{" "}
         or{" "}
         <a className="no_decoration" href="mailto:stodyshev@gmail.com">
