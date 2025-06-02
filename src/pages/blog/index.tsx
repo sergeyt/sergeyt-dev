@@ -4,7 +4,7 @@ import Link from "next/link";
 
 export default function IndexPage({ years }) {
   const items = years.map((year) => (
-    <li>
+    <li key={year}>
       <Link href={`./blog/${year}`}>{year}</Link>
     </li>
   ));

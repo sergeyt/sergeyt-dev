@@ -5,7 +5,7 @@ import bluebird from "bluebird";
 
 export default function IndexPage({ year, files }) {
   const items = files.map((file) => (
-    <li>
+    <li key={file}>
       <Link href={`/blog/${year}/${file}`}>{file}</Link>
     </li>
   ));
