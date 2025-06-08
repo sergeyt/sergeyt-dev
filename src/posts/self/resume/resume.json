@@ -1,0 +1,183 @@
+{
+  "selectedTemplate": 1,
+  "headings": {
+    "skills": "",
+    "projects": "",
+    "awards": ""
+  },
+  "basics": {
+    "name": "Sergey Todyshev",
+    "email": "stodyshev@gmail.com",
+    "phone": "+79132017700",
+    "location": {
+      "address": "Russia"
+    },
+    "website": "https://tsvbits.com"
+  },
+  "education": [
+    {
+      "institution": "Institute of Automation and Electrometry",
+      "startDate": "Jun 2004",
+      "location": "Novosibirsk, Russia",
+      "studyType": "PhD (incomplete)",
+      "area": "Applied Mathematics",
+      "endDate": "Aug 2007"
+    },
+    {
+      "institution": "Novosibirsk State University",
+      "location": "Novosibirsk, Russia",
+      "studyType": "Computers, Complexes, Systems and Networks",
+      "gpa": "4+",
+      "startDate": "Sep 1999",
+      "endDate": "Jun 2004"
+    }
+  ],
+  "work": [
+    {
+      "website": "",
+      "highlights": [
+        "Development of efficient Web Components for business applications with heavy front-end",
+        "Leading development of DataViewsJS product with devops, tech lead and project manager duties"
+      ],
+      "company": "GrapeCity, Inc",
+      "position": "Software Team Lead",
+      "location": "Remote",
+      "startDate": "Oct 2018",
+      "endDate": "Present"
+    },
+    {
+      "highlights": [
+        "Leading development of large-scale automation platform with up to 15 engineers",
+        "Direct communication with foreign managers and foreign product customers",
+        "Solving customer incidents on production environment",
+        "Backend/frontend developer with technical lead duties",
+        "Full-cycle of feature development from proposal, estimation, design and implementation"
+      ],
+      "company": "Xored",
+      "position": "Software Tech Lead",
+      "location": "Novosibirsk, Russia",
+      "startDate": "Jan 2016",
+      "endDate": "Jun 2018"
+    },
+    {
+      "highlights": [
+        "Leading development of ActiveReports and ActiveReports Server platform",
+        "Major developer of compiler from .NET to Flash Player byte code used to make ActiveReports Flash Viewer"
+      ],
+      "company": "DataWorks",
+      "position": "Full Stack Software Engineer",
+      "location": "Novosibirsk, Russia",
+      "startDate": "Jun 2007",
+      "endDate": "Jan 2016"
+    },
+    {
+      "highlights": [
+        "Developed hardware abstraction layer aka Device Manager",
+        "Developed computer-aided tools for interferometry and tomography",
+        "Automation of laser writing machines",
+        "Developed software and hardware development tools"
+      ],
+      "company": "Institute of Automation and Electrometry",
+      "position": "Full Stack Software Engineer",
+      "location": "Novosibirsk, Russia",
+      "startDate": "Jan 2002",
+      "endDate": "Aug 2007"
+    }
+  ],
+  "skills": [
+    {
+      "level": "",
+      "keywords": ["Russian (native)", "English (upper intermediate)"],
+      "name": "Can read/write/speak"
+    },
+    {
+      "keywords": ["TypeScript", "JavaScript"],
+      "name": "Currently program with"
+    },
+    {
+      "keywords": ["C#", "Java", "Go", "Python"],
+      "name": "Used to program with"
+    },
+    {
+      "keywords": ["Azure Service Fabric", "ASP.NET", "Java EE (Wildfly)"],
+      "name": "Backend technologies"
+    },
+    {
+      "keywords": ["React", "Redux", "Immutable.js"],
+      "name": "Frontend technologies"
+    },
+    {
+      "keywords": ["Linux", "Docker", "Git", "Bash"],
+      "name": "Miscelanious"
+    }
+  ],
+  "projects": [
+    {
+      "name": "Velocity",
+      "keywords": [
+        "PostgreSQL",
+        "ElasticSearch",
+        "Minio",
+        "Apache Kafka",
+        "Docker",
+        "OpenStack",
+        "Java",
+        "Go",
+        "Python"
+      ],
+      "description": "The complete LaaS solution for orchestration of physical, virtual, and hybrid computer networks",
+      "url": "https://www.spirent.com/products/velocity"
+    },
+    {
+      "keywords": ["Microsoft Visual Studio", "Mercurial", "ASP.NET", "C#"],
+      "name": "ActiveReports",
+      "description": "The fast, complete .NET reporting solution",
+      "url": "https://www.grapecity.com/activereports"
+    },
+    {
+      "keywords": ["Modbus protocol", "Windows DDK", "C++"],
+      "name": "CLWS-300",
+      "description": "Software to manage unique circle laser writing system designed by IAE"
+    },
+    {
+      "keywords": ["Microsoft Foundation Classes", "OpenGL", "MatLAB", "C++"],
+      "name": "voXcat",
+      "description": "Tomography analysis software"
+    },
+    {
+      "keywords": ["Microsoft Foundation Classes", "GDI+", "C++"],
+      "description": "Visual programming environment like mini LabVIEW implementation",
+      "name": "Abstract Control System",
+      "url": "http://denktech.de/about.html"
+    },
+    {
+      "keywords": ["Mono", "C#", "Visual Studio 6", "Flash Builder 3"],
+      "name": "PageFX",
+      "description": "A compiler from .NET to Flash byte code used to easily craft ActiveReports Flash Viewer",
+      "url": "https://github.com/GrapeCity/pagefx"
+    },
+    {
+      "keywords": ["C#"],
+      "name": "CarbonDocs",
+      "description": "CarbonDocs is used by .NET developers to create dynamic PDFs. It enables developers to use HTML and CSS along with inline ASP.NET-style scripts to generate dynamic content",
+      "url": "https://carbondocs.windows8compatible.com"
+    }
+  ],
+  "awards": [
+    {
+      "title": "",
+      "date": "",
+      "awarder": "",
+      "summary": ""
+    }
+  ],
+  "sections": [
+    "templates",
+    "profile",
+    "education",
+    "work",
+    "skills",
+    "projects",
+    "awards"
+  ]
+}

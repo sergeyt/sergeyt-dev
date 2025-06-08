@@ -1,0 +1,153 @@
+{
+  "basics": {
+    "name": "Sergey Todyshev",
+    "label": "Software Engineer",
+    "summary": "I am a capable software engineer with over 15 years of professional experience. Relationships, efficiency, simplicity matters to me",
+    "picture": "https://avatars3.githubusercontent.com/u/190322?s=460&u=b87d4e8a9c8b452b1b96f1a6dc615865909e901f&v=4",
+    "email": "stodyshev@gmail.com",
+    "phone": "+79132017700",
+    "website": "https://tsvbits.com",
+    "profiles": [
+      {
+        "username": "sergeyt",
+        "url": "https://github.com/sergeyt"
+      },
+      {
+        "username": "sergeytodyshev",
+        "url": "https://www.linkedin.com/in/sergeytodyshev"
+      }
+    ]
+  },
+  "skills": [
+    {
+      "name": "HTML",
+      "level": "10"
+    },
+    {
+      "name": "CSS",
+      "level": "10"
+    },
+    {
+      "name": "JavaScript",
+      "level": "10"
+    },
+    {
+      "name": "TypeScript",
+      "level": "10"
+    },
+    {
+      "name": "ReactJS",
+      "level": "10"
+    },
+    {
+      "name": "C#",
+      "level": "10"
+    },
+    {
+      "name": "Python",
+      "level": "5"
+    },
+    {
+      "name": "Golang",
+      "level": "5"
+    },
+    {
+      "name": "Java",
+      "level": "5"
+    },
+    {
+      "name": "Kotlin",
+      "level": "5"
+    },
+    {
+      "name": "Rust",
+      "level": "1"
+    }
+  ],
+  "work": [
+    {
+      "position": "Senior Fullstack Developer",
+      "company": "Regie",
+      "website": "https://regie.ai",
+      "summary": "- Full-cycle development of sales automation platform",
+      "startDate": "2020-10-01"
+    },
+    {
+      "position": "TechLead",
+      "company": "GrapeCity",
+      "website": "https://www.grapecity.com",
+      "summary": "- Full-cycle development of complex web components and tools for developers\n- Implemented efficient data processing engine as WebAssembly module",
+      "startDate": "2018-10-01",
+      "endDate": "2020-10-01"
+    },
+    {
+      "position": "TechLead",
+      "company": "Xored",
+      "website": "https://www.xored.com",
+      "summary": "- Full-cycle development of Spirent Velocity lab automation platform\n- Leading dev team of 10+ engineers",
+      "startDate": "2018-10-01",
+      "endDate": "2020-10-01"
+    },
+    {
+      "position": "Fullstack Developer",
+      "company": "DataWorks",
+      "website": "https://www.dataworks.co",
+      "summary": "- Full-cycle development of ActiveReports award winning reporting platform for .NET\n- Full-cycle development of ActiveReports Server",
+      "startDate": "2007-06-01",
+      "endDate": "2016-01-01"
+    }
+  ],
+  "education": [
+    {
+      "institution": "Institute of Automation and Electrometry",
+      "website": "https://www.iae.nsk.su",
+      "area": "Automated Control Systems",
+      "studyType": "PhD",
+      "startDate": "2004-09-01",
+      "endDate": "2007-09-01"
+    },
+    {
+      "institution": "Novosibirsk State University",
+      "website": "https://www.nsu.ru",
+      "area": "Computers, Systems, Networks",
+      "studyType": "Specialist",
+      "startDate": "1999-09-01",
+      "endDate": "2004-07-01",
+      "gpa": "4.0"
+    }
+  ],
+  "languages": [
+    {
+      "language": "English",
+      "fluency": "professional"
+    },
+    {
+      "language": "Russian",
+      "fluency": "native"
+    }
+  ],
+  "interests": [
+    {
+      "name": "Table Tennis",
+      "keywords": ["Sport", "Health"]
+    },
+    {
+      "name": "Travelling",
+      "keywords": ["Education"]
+    }
+  ],
+  "references": [
+    {
+      "name": "Scott Willeke",
+      "email": "scott@willeke.com"
+    },
+    {
+      "name": "Oleg Zaimkin",
+      "email": "oleg.zaimkin@grapecity.com"
+    },
+    {
+      "name": "Yuriy Kashnikov",
+      "email": "yuriy.kashnikov@protonmail.com"
+    }
+  ]
+}
