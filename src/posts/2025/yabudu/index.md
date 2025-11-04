@@ -1,15 +1,15 @@
 ---
-title: Yabudu — Making Event Registration Effortless
+title: YaBudu — Making Event Registration Effortless
 date: '2025-11-04'
 spoiler: Demo project to showcase my skills
 tags: ["pr", "demo", "project"]
 ---
 
-## Yabudu — Making Event Registration Effortless
+## YaBudu — Making Event Registration Effortless
 
 Organizing small group events might sound simple — until you’ve tried doing it through a group chat. Whether it’s a local tennis club, a study circle, or a table-tennis group, coordinating who’s coming can quickly turn into a flurry of messages, crossed wires, and last-minute confusion.
 
-That’s the everyday problem I set out to solve with **[Yabudu](https://github.com/sergeyt/yabudu)** — a modern web app that simplifies how people **register for upcoming events in shared spaces**.
+That’s the everyday problem I set out to solve with **[YaBudu](https://github.com/sergeyt/yabudu)** — a modern web app that simplifies how people **register for upcoming events in shared spaces**.
 
 ### From chaos to clarity
 
@@ -25,7 +25,7 @@ That early version taught me the importance of simplicity and reliability. Yabud
 
 ### Beyond code — a showcase of craftsmanship
 
-Yabudu highlights my ability to take a real-world coordination problem, design a user-friendly solution, and implement it end-to-end. It brings together everything I value in software engineering:
+YaBudu highlights my ability to take a real-world coordination problem, design a user-friendly solution, and implement it end-to-end. It brings together everything I value in software engineering:
 
 * **Empathy for users**, by solving a tangible pain point
 * **Clean, scalable design**, ensuring every interaction feels intuitive
@@ -33,9 +33,9 @@ Yabudu highlights my ability to take a real-world coordination problem, design a
 
 ### Why it matters
 
-While Yabudu may seem like a small app, it reflects a larger philosophy — that technology should make human coordination smoother and more transparent. It’s a simple idea brought to life through thoughtful design and technical precision.
+While YaBudu may seem like a small app, it reflects a larger philosophy — that technology should make human coordination smoother and more transparent. It’s a simple idea brought to life through thoughtful design and technical precision.
 
-For me, Yabudu isn’t just a side project. It’s a reflection of how I approach problems: observe, simplify, and build something that just works.
+For me, YaBudu isn’t just a side project. It’s a reflection of how I approach problems: observe, simplify, and build something that just works.
 
 ---
 
