@@ -5,18 +5,6 @@ spoiler: I am pretty good engineer :)
 tags: ["cv", "resume"]
 ---
 
-<style>
-table {
-    table-layout: fixed;
-}
-th::nth-child(2), td:nth-child(2) {
-    text-align: center;
-}
-td:nth-child(2) {
-    padding-left: 30px;
-}
-</style>
-
 #### Programming Languages
 
 | Language      | Years |
