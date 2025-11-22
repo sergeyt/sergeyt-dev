@@ -11,8 +11,9 @@ export default function YearIndexPage({ year, files }) {
   const pretty = (slug: string) =>
     slug.replace(/-/g, " ").replace(/\b\w/g, (c) => c.toUpperCase());
 
+  // TODO title={`Posts from ${year} – sergeyt.dev`}
   return (
-    <Layout title={`Posts from ${year} – sergeyt.dev`}>
+    <Layout>
       <section className={styles.header}>
         <p className={styles.eyebrow}>Archive</p>
         <h1 className={styles.title}>Posts from {year}</h1>
