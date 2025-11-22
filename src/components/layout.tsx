@@ -25,10 +25,10 @@ export default function RootLayout({ title, children }) {
           >
             home
           </Link>
-          <Link href="./blog" target="_blank">
+          <Link href="/blog" target="_blank">
             blog
           </Link>
-          <Link href="./resume" target="_blank">
+          <Link href="/blog/self/resume" target="_blank">
             cv
           </Link>
         </div>
