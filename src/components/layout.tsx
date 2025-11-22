@@ -13,7 +13,7 @@ const font = Spectral({
   variable: "--font-main",
 });
 
-export default function RootLayout({ children }) {
+export default function RootLayout({ title, children }) {
   const router = useRouter();
   return (
     <div className={cx(styles.page, font.variable)}>
