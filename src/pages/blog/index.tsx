@@ -5,7 +5,20 @@ import Layout from "@/components/layout";
 import styles from "@/styles/BlogIndex.module.css";
 
 export default function BlogIndexPage({ years }) {
-  const sortedYears = [...years].sort((a, b) => b.localeCompare(a));
+  const sortedYears = [...years].sort((a, b) => {
+    const x = parseInt(a, 10);
+    const y = parseInt(b, 10);
+    if (!isNaN(x)) {
+      if (!isNaN(y)) {
+        return x - y;
+      }
+      return 1;
+    }
+    if (!isNaN(y)) {
+      return -1;
+    }
+    return a.localeCompare(b);
+  });
 
   return (
     <Layout title="Blog – sergeyt.dev">
