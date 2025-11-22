@@ -5,6 +5,7 @@ type FrontMatter = {
   title: string;
   date?: string;
   tags?: string[];
+  spoiler?: string;
 };
 
 export default function BlogLayout({
@@ -16,7 +17,7 @@ export default function BlogLayout({
   frontMatter?: FrontMatter;
   readingTimeMinutes?: number;
 }) {
-  const { title, date, tags } = frontMatter || {};
+  const { title, date, tags, spoiler } = frontMatter || {};
 
   // Format date nicely, fallback to raw string if parsing fails
   let formattedDate: string | null = null;
@@ -63,6 +64,14 @@ export default function BlogLayout({
             ))}
           </div>
         ) : null}
+
+        {/* Spoiler / note */}
+        {spoiler && (
+          <div className="mt-4 rounded-md border border-yellow-100 bg-yellow-50 px-3 py-2 text-xs text-yellow-900">
+            <span className="font-medium">Note: </span>
+            <span>{spoiler}</span>
+          </div>
+        )}
 
         {/* Content */}
         <div className="mt-6 prose">{children}</div>
