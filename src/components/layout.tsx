@@ -28,7 +28,7 @@ export default function RootLayout({ title, children }: any) {
           <Link href="/blog" target="_blank">
             blog
           </Link>
-          <Link href="/blog/self/resume" target="_blank">
+          <Link href="/blog/about/resume" target="_blank">
             cv
           </Link>
         </div>
