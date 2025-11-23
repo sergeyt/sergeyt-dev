@@ -7,7 +7,6 @@ import { serialize } from "next-mdx-remote/serialize";
 import BlogLayout from "@/components/BlogLayout";
 
 export default function BlogPage({ source, ...props }) {
-  console.log("blog props", props);
   return (
     <BlogLayout {...props}>
       <MDXRemote {...source} />
