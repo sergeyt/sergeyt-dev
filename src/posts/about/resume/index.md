@@ -2,122 +2,79 @@
 title: Resume
 date: '2024-12-16'
 spoiler: Latest version of online CV
-tags: ["cv", "pr"]
+tags: ["cv", "resume"]
 ---
 
-**Name**: Sergey Todyshev  
-**Email**: [stodyshev@gmail.com](mailto:stodyshev@gmail.com)  
-**LinkedIn**: [linkedin.com/in/sergeytodyshev](https://www.linkedin.com/in/sergeytodyshev)  
-**GitHub**: [github.com/sergeyt](https://github.com/sergeyt)  
-**WebSite**: [sergeyt.dev](https://sergeyt.dev)  
-**Blog**: [tsvbits](https://tsvbits.com)  
-**Updated**: April 5, 2025  
+**Sergey Todyshev**  
+**Senior Software Engineer** | **AI-Powered Systems** | **Cloud Architecture**  
+**Batumi, Georgia** (**open to relocation**)  
+[stodyshev@gmail.com](mailto:stodyshev@gmail.com) | [linkedin.com/in/sergeytodyshev](https://www.linkedin.com/in/sergeytodyshev) | [github/sergeyt](https://github.com/sergeyt)
 
-## About
+## Summary
 
-I'm a passionate engineer with 20+ years of experience delivering scalable software—from AI-powered applications to cloud-native systems. I thrive on solving complex problems and crafting elegant solutions that make life easier for users and teams alike.
+- 20+ years of full-stack engineering experience, specializing in AI applications, cloud-native systems (AWS), and high-performance data platforms.
+- Architected and delivered core features for AI sales tools at [Regie.ai](https://regie.ai), directly contributing to a 40% increase in user adoption for the Co-pilot product.
+- Led technical teams of up to 15 engineers, modernized legacy systems to cut build times by 60%, and solved critical scalability bottlenecks for enterprise clients.
+- Expert in Node.js/TypeScript, Java/C#, React, Golang, and AWS with a record of shipping robust, cross-platform solutions.
+- Skills: Node.js, TypeScript, React, Java, C#, NestJS, Golang, Rust, AWS, MongoDB, PostgreSQL, ElasticSearch, Docker, CI/CD, Microservices, System Architecture, Performance Optimization.
 
-### Technical Expertise
-- Strong foundation in software architecture, system design, and performance optimization
-- In-depth understanding of software development lifecycle and enterprise-grade systems
-- Full-stack development experience across front-end and back-end
-- Proficient in cross-platform development (Windows, Linux, macOS)
-- Experienced in building high-performance, scalable, and multi-threaded applications
-- Comfortable working across both statically and dynamically typed languages as a true programming polyglot
-- Familiar with modern DevOps practices including CI/CD pipelines and automation
-- Skilled in working with a variety of databases and data modeling approaches
-- Experience with test automation and quality assurance frameworks
-- Practical knowledge in integrating and developing AI-powered applications
+## Experience
 
-### Languages
-- English - B2+ IELTS Academic, 2019
-- Russian - Native Speaker
+### [REGIE.AI](https://regie.ai)
+**Senior Software Engineer** (Oct 2020 – Aug 2025)
 
-### Core values
-- Relationships matter
-- Solve for the customer
-- Playful enthusiasm
+* As one of founding engineers built AI-native Sales Enablement Platform
+* Architected Auto-pilot backend with NestJS + MongoDB, powering automated multi-step campaigns for 1,000+ enterprise users.
+* Drove 40% adoption growth of Co-pilot by slashing API response times and streamlining React components.
+* Halved bug resolution times by rolling out standardized logging/monitoring with New Relic + Sentry.
+* Team size: 10+ (distributed team)
+* Tools: **NodeJS**, **NestJS**, **TypeScript**, **React**, **Jest**, **Webpack**, **AWS**, **MongoDB**, **Metabase**
+
+### [GrapeCity](https://grapecity.com/)
+**Tech Lead** (Oct 2018 - Oct 2020)
+
+* Led a distributed team of 7 engineers in the development of [**DataViewsJS**](https://www.grapecity.com/dataviewsjs/), a JavaScript data presentation library used by Fortune 500 clients.
+* Cut build times 60% and reduced pre-release bugs 40% by migrating from JavaScript to more modular TypeScript codebase and adding Jest & Playwright automated testing.
+* Proved a 5x performance gain with Rust + WebAssembly prototype for spreadsheet calcs, influencing product roadmap.
+* Tools: **NodeJS**, **ExpressJS**, **TypeScript**, **React**, **Angular**, **VueJS**, **Jest**, **Webpack**
+
+### [Xored](http://www.xored.com/)
+**Tech Lead** (Jan 2016 - Jun 2018)
+
+* Led and mentored a team of 15 engineers developing [**Spirent Velocity**](/velocity), a Lab Automation Platform for a major telecommunications client.
+* Eliminated outages by re-architecting PostgreSQL transactions, hitting 99.9% uptime and preventing churn.
+* Cut feature cycles from 8 to 4 weeks by automating CI/CD and creating a shared React component library.
+* Team size: 20+ (distributed team)
+* Tools: **Java**, **PostgreSQL**, **ElasticSearch**, **WildFly**, **Apache Kafka**, **React**, **AngularJS**, **Python**, **Golang**
+
+### [DataWorks](http://dataworks.co/) - Reporting Solutions
+**Full-Stack Software Engineer** (Jun 2007 - Jan 2016)
+
+* Boosted legacy report rendering 10x by re-engineering the C# engine and optimizing layout and data processing subsystems.
+* Authored [PageFX compiler](https://github.com/GrapeCity/pagefx) compiler, an open-source .NET → Adobe Flash compiler, enabling cross-platform reporting.
+* Team size: 20+ (distributed team)
+* Tools: **C#**, **.NET**, **WinForms**, **JavaScript**, **React**, **Knockout**, **jQuery**, **Microsoft SQL Reporting Services**
+
+### [IAE](https://www.iae.nsk.su/en/) - Research Lab
+**Software Engineer** (Jun 2002 - Aug 2007)
+
+* Developed C++ and C# software for automated Circle Laser Writing Systems (CLWS), including hardware abstraction layers and client-server architecture for system control.
+* Tools: **C++**, **Windows DDK**, **C#**, **WinForms**
 
 ## Education
 
-### Master's Degree | [Novosibirsk State University](https://www.nsu.ru/) <span class="calendar icon right">`Sep 1999  –  Jun 2004`</span>
+### [Novosibirsk State University](https://www.nsu.ru/)
+**Master's Degree** (Sep 1999  –  Jun 2004)
 
 * Faculty: Information Technologies
 * GPA: 4.0+
 * Focus: Computers, Complexes, Systems, and Networks
 
-### PhD Student | Institute of IAE, Novosibirsk <span class="calendar icon right">`Jun 2004  – Aug 2007`</span>
+### [Institute of Automation and Electrometry](https://www.iae.nsk.su/en/)
+**PhD Student** (Jun 2004  – Aug 2007)
 
 Accomplishments:
 * Modernized software for Circle Laser Writing Systems ([CLWS](/clws))
-* Implemented hardware abstraction layers for CLWS
-* Implemented client/server architecture and built desktop user interfaces using C++ MFC and C# WinForms
-* Created tools for interferometry and tomography ([voxcat](/voxcat))
-
-## Professional Experience <span class="calendar icon right">`Jan 2002 - now`</span>
-
-### Senior Software Engineer | [REGIE.AI](https://regie.ai) <span class="calendar icon right">`Oct 2020 – now`</span>
-
-* Designed and built AI-powered productivity tools tailored for salespeople
-* Key contributor to the architecture and implementation of **Co-pilot** and **Auto-pilot** features
-* Collaborated cross-functionally with product, design, and research teams to deliver end-to-end solutions
-* Helped increase Co-pilot adoption by 40% through performance and UX enhancements
-* Continuously improved system reliability, scalability, and code quality across services
-* Team size: 10+ (distributed team)
-* Tools: **NodeJS**, **NestJS**, **TypeScript**, **React**, **Jest**, **Webpack**, **AWS**, **MongoDB**, **Metabase**
-
-### Tech Lead | [GrapeCity](https://grapecity.com/) <span class="calendar icon right">`Oct 2018 - Oct 2020`</span>
-
-* Directed development of [**DataViewsJS**](https://www.grapecity.com/dataviewsjs/) - a JavaScript data presentation platform
-* Modernized architecture, tooling, and automated testing frameworks
-* Led WebAssembly research using Rust to enhance spreadsheet features
-* Team size: 7 (distributed team)
-* Tools: **NodeJS**, **ExpressJS**, **TypeScript**, **React**, **Angular**, **VueJS**, **Jest**, **Webpack**, **GulpJS**
-
-### Tech Lead | [Xored](http://www.xored.com/) <span class="calendar icon right">`Jan 2016 - Jun 2018`</span>
-
-* Led a team of 10-15 engineers for [**Spirent Veclity**](/velocity), a lab automation platform
-* Resolved customer-facing scalability issues and provided direct client support
-* Collaborated with product owners to address business challenges effectively
-* Team size: 20+ (distributed team)
-* Tools: **Java**, **PostgreSQL**, **ElasticSearch**, **WildFly**, **Apache Kafka**, **ReactJS**, **AngularJS**, **Python**, **Golang**
-
-### Full-Stack Software Engineer | [DataWorks](http://dataworks.co/) <span class="calendar icon right">`Jun 2007 - Jan 2016`</span>
-
-* Improved report rendering performance by 10x in legacy systems
-* Principal author of [PageFX compiler](https://github.com/GrapeCity/pagefx), enabling multi-platform report viewing
-* Team size: 20+ (distributed team)
-* Tools: **C#**, **.NET**, **WinForms**, **JavaScript**, **ReactJS**, **Knockout**, **jQuery**, **Microsoft SQL Reporting Services**
-
-### Software Engineer | [IAE](https://www.iae.nsk.su/en/) <span class="calendar icon right">`Jun 2002 - Aug 2007`</span>
-
-* Developed automated laser writing systems
-* Developed computer-aided tools for laser writing and analysis
-* Team size: 3+
-* Tools: **C++**, **Windows DDK**, **C#**, **WinForms**
-
-## Highlighted Projects
-
-* [Regie.ai](https://regie.ai) – Contributed to AI-powered sales tools transforming how GTM teams automate outreach and boost productivity.
-* [ActiveReports](/activereports) - Flagship reporting platform evolving last 20 years. Proud to have contributed especially in optimization initiatives here.
-* [Spirent Velocity](/velocity) – Lab automation platform for testing and simulation. This was the largest project I've worked on.
-* [PageFX](/pagefx) - Open-source cross-platform compiler from dotnet to flash player binary code.
-
-[Full Project List](/projects)
-
-## Key Achievements
-- Built and optimized REST APIs serving 1M+ users
-- Optimized report rendering engine time by 10x in legacy systems
-- Modernized JavaScript framework for enterprise-grade spreadsheet engine
-
-## References
-
-Available upon request:
-* Scott Willeke (mailto:scott@willeke.com)
-* Oleg Zaimkin (mailto:oleg.zaimkin@grapecity.com)
-* Yuriy Kashnikov (mailto:yuriy.kashnikov@protonmail.com)
-
-## Hobbies
-* [Table tennis](/table-tennis)
-* Travelling with family
-* Open Source contribution
+* Developed hardware abstraction layers for CLWS
+* Designed and implemented client/server architecture and built desktop user interfaces using C++ MFC and C# WinForms
+* Built specialized tools for interferometry and tomography ([voxcat](/voxcat))
