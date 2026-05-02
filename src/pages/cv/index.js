@@ -15,10 +15,10 @@ function useQuery(location) {
 }
 
 function useResume(src) {
-  if (!src) {
-    return { data: resume };
-  }
   return useSWR(`resume.json?src=${src}`, () => {
+    if (!src) {
+      return { data: resume };
+    }
     const cr = /cr-([\w\d]+)/;
     const m = cr.exec(src);
     if (m) {
