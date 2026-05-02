@@ -24,7 +24,6 @@
     ],
     "strictNullChecks": true,
     "target": "ES2017",
-    "baseUrl": "./",
     "paths": {
       "@/*": [
         "./src/*"
